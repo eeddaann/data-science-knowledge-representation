@@ -1,4 +1,7 @@
 # data-science topic modeling - Using data science for explaining what is data science..
+
+**note:** for viewing and playing with the results, [click here](http://nbviewer.jupyter.org/github/eeddaann/data-science-knowledge-representation/blob/86722160a5bf2bf4e278ab45a875f028000c187b/Untitled.ipynb)
+
 ### Data collection
 
 This project is based on "[Data Science Stack Exchange](https://datascience.stackexchange.com/)" - website which dedicated to questions and answers  about data science.
@@ -55,7 +58,7 @@ lda = gensim.models.ldamodel.LdaModel(corpus=corpus, id2word=dictionary, num_top
 
 For visualization we used  ```pyLDAvis```
 
-![](capture.png)
+![](Capture.png)
 
 
 
